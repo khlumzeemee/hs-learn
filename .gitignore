@@ -1,0 +1,4 @@
+.stack-work/
+hs-learn.cabal
+*~
+stack.yaml.lock
