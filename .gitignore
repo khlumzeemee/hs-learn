@@ -2,3 +2,4 @@
 hs-learn.cabal
 *~
 stack.yaml.lock
+.vscode/
