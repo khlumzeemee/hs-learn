@@ -1,4 +1,4 @@
-module Geometry.Sphere  
+module LearnYouHaskell.Chap7_Modules.Geometry.Sphere
 ( volume  
 , area  
 ) where  

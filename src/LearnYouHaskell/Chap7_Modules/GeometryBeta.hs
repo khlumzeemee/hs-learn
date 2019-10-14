@@ -1,4 +1,4 @@
-module GeometryBeta
+module LearnYouHaskell.Chap7_Modules.GeometryBeta
 ( sphereVolume
 , sphereArea
 , cubeVolume

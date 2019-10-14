@@ -1,4 +1,4 @@
-module Geometry.Cuboid  
+module LearnYouHaskell.Chap7_Modules.Geometry.Cuboid
 ( volume  
 , area  
 ) where  

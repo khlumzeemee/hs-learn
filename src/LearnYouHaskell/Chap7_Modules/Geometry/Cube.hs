@@ -1,4 +1,4 @@
-module Geometry.Cube  
+module LearnYouHaskell.Chap7_Modules.Geometry.Cube
 ( volume  
 , area  
 ) where  
