@@ -14,7 +14,7 @@ instance Functor Prob where
 
 instance Applicative Prob where
     pure = return
-    (<*>) = liftA2 id
+    (<*>) = ap
 
 instance Monad Prob where
     return x = Prob [(x,1%1)]

@@ -1,4 +1,5 @@
 import Control.Monad.State
+import Control.Monad
 
 type Stack = [Int]
 
@@ -26,6 +27,4 @@ stackStuff = do
 moreStack :: State Stack ()  
 moreStack = do  
     a <- stackManip  
-    if a == 100  
-        then stackStuff  
-        else return ()
+    when(a == 100) stackStuff
